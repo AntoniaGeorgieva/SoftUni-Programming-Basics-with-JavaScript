@@ -1,13 +1,10 @@
-function excellent(input)
-{
+function excellent(input) {
     let a = Number(input[0]);
     let b = Number(input[1]);
-    if (a > b)
-    {
+    if (a > b) {
         console.log(a)
     }
-    else
-    {
+    else {
         console.log(b)
     }
 }

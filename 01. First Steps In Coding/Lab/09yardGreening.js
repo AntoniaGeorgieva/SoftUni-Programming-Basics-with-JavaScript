@@ -1,5 +1,4 @@
-function solve(input)
-{
+function solve(input) {
     let km = Number(input[0]);
     let price = km * 7.61;
     let finalPrice = price - 0.18 * price;

@@ -1,5 +1,4 @@
-function solve(input)
-{
+function solve(input) {
     let allPages = Number(input[0]);
     let pagesForHour = Number(input[1]);
     let days = Number(input[2]);

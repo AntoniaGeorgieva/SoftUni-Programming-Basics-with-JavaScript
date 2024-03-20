@@ -1,5 +1,4 @@
-function solve(input)
-{
+function solve(input) {
     let name = input[0];
     let count = Number(input[1]);
     let hours = 3 * count;

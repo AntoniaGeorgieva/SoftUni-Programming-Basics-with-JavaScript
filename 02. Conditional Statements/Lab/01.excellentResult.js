@@ -1,8 +1,6 @@
-function excellent(input)
-{
+function excellent(input) {
     let grade = Number(input[0]);
-    if (grade >= 5.50)
-    {
+    if (grade >= 5.50) {
         console.log("Excellent!")
     }
 }

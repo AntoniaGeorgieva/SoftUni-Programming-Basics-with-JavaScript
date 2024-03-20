@@ -1,10 +1,9 @@
-function solve(input)
-{
+function solve(input) {
     let chickens = Number(input[0]);
     let fishes = Number(input[1]);
     let vegans = Number(input[2]);
 
-    let chickenPrice = 10.35 * chickens; 
+    let chickenPrice = 10.35 * chickens;
     let fishPrice = fishes * 12.40;
     let veganPrice = 8.15 * vegans;
     let priceForFood = chickenPrice + fishPrice + veganPrice;

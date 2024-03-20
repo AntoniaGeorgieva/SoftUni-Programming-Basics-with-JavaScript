@@ -1,12 +1,9 @@
-function excellent(input)
-{
+function excellent(input) {
     let a = input[0];
-    if (a === "s3cr3t!P@ssw0rd")
-    {
+    if (a === "s3cr3t!P@ssw0rd") {
         console.log("Welcome")
     }
-    else
-    {
+    else {
         console.log("Wrong password!")
     }
 }

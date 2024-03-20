@@ -1,5 +1,4 @@
-function solve(input)
-{
+function solve(input) {
     let a = Number(input[0]);
     let b = Number(input[1]);
     let c = Number(input[2]);

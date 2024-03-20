@@ -1,5 +1,4 @@
-function solve(input)
-{
+function solve(input) {
     let firstName = input[0]
     let lastName = input[1]
     let age = input[2]

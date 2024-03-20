@@ -1,5 +1,4 @@
-function solve(input)
-{
+function solve(input) {
     let dogs = Number(input[0]);
     let cats = Number(input[1]);
     let dogsFood = dogs * 2.50;

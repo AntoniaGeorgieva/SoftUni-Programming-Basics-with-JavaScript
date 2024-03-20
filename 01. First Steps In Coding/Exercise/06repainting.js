@@ -1,5 +1,4 @@
-function solve(input)
-{
+function solve(input) {
     let nailon1 = Number(input[0]);
     let nailon = nailon1 + 2;
     let paint1 = Number(input[1]);
@@ -13,7 +12,7 @@ function solve(input)
 
     let priceForMaterials = nailonPrice + paintPrice + lPrice + 0.40;
     let priceForWork = 0.3 * priceForMaterials * hoursWork;
-    let endPrice = priceForMaterials + priceForWork ;
+    let endPrice = priceForMaterials + priceForWork;
 
     console.log(endPrice)
 }
